@@ -46,7 +46,7 @@
                 <p>
                     Se tiver dúvidas ou quiser saber mais sobre nossa livraria, entre em contato conosco através do e-mail ou telefone abaixo.
                 </p>
-                <p>Email: franww13@gmail.com | Tel: (+359) 926675874</p>
+                <p>Email: alves2007francisco@gmail.com | Tel: (+359) 913350202</p>
             </div>
         </div>
     </div>

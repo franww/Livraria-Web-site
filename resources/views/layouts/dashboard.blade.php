@@ -148,7 +148,7 @@
 
     <!-- Sidebar -->
     <div class="sidebar">
-        <h3>Giant Library</h3>
+        <h3>Libraria do Chicão</h3>
         <ul class="nav flex-column">
             <li class="nav-item">
                 <a class="nav-link {{ Route::is('dashboard') ? 'active' : '' }}" href="{{ route('dashboard') }}">
@@ -156,8 +156,8 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link {{ Route::is('dashboard.profile') ? 'active' : '' }}" href="{{ route('dashboard.profile') }}">
-                    <i class="fas fa-user"></i> Perfil
+                <a class="nav-link {{ Route::is('tickets.create') ? 'active' : '' }}" href="{{ route('tickets.create') }}">
+                    <i class="fas fa-user"></i> Falar conosco
                 </a>
             </li>
             <li class="nav-item">
@@ -166,12 +166,6 @@
                 </a>
             </li>
 
-
-            <li class="nav-item">
-                <a class="nav-link {{ Route::is('dashboard.settings') ? 'active' : '' }}" href="{{ route('dashboard.settings') }}">
-                    <i class="fas fa-cog"></i> Configurações
-                </a>
-            </li>
             <li class="nav-item">
                 <a class="nav-link {{ Route::is('dashboard.aboutwe') ? 'active' : '' }}" href="{{ route('dashboard.aboutwe') }}">
                     <i class="fas fa-users"></i> Sobre Nós
