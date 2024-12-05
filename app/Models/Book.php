@@ -9,5 +9,12 @@ class Book extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['title', 'author', 'price', 'image', 'category'];
+    // Defina os campos que são atribuíveis em massa
+    protected $fillable = [
+        'title',
+        'author',
+        'price',
+        'image',
+        'category',
+    ];
 }

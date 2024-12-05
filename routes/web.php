@@ -3,6 +3,7 @@
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\BookCategoryController;
+use App\Http\Controllers\CartController;
 use Illuminate\Support\Facades\Route;
 
 // Página inicial
@@ -19,6 +20,7 @@ Route::get('/dashboard', [DashboardController::class, 'index'])
 Route::middleware('auth')->group(function () {
     // Páginas do dashboard
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+
     Route::get('/dashboard/profile', [DashboardController::class, 'profile'])->name('dashboard.profile');
     Route::get('/dashboard/settings', [DashboardController::class, 'settings'])->name('dashboard.settings');
     Route::get('/dashboard/aboutwe', [DashboardController::class, 'aboutwe'])->name('dashboard.aboutwe');
@@ -37,4 +39,14 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/dashboard/books/kids', [BookCategoryController::class, 'kidsBooks'])->name('dashboard.books.kids');
 });
 
-require __DIR__.'/auth.php';
+Route::prefix('cart')->group(function () {
+    Route::get('/', [CartController::class, 'index'])->name('cart.index'); // Exibir carrinho
+    Route::post('/add', [CartController::class, 'add'])->name('cart.add'); // Adicionar ao carrinho
+    Route::post('/update', [CartController::class, 'update'])->name('cart.update'); // Atualizar carrinho
+    Route::post('/remove', [CartController::class, 'remove'])->name('cart.remove'); // Remover item
+});
+
+
+
+
+require __DIR__ . '/auth.php';

@@ -161,6 +161,13 @@
                 </a>
             </li>
             <li class="nav-item">
+                <a class="nav-link {{ Route::is('cart.index') ? 'active' : '' }}" href="{{ route('cart.index') }}">
+                    <i class="fas fa-shopping-cart"></i> Carrinho
+                </a>
+            </li>
+
+
+            <li class="nav-item">
                 <a class="nav-link {{ Route::is('dashboard.settings') ? 'active' : '' }}" href="{{ route('dashboard.settings') }}">
                     <i class="fas fa-cog"></i> Configurações
                 </a>
