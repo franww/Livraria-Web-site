@@ -4,9 +4,9 @@ This is a project for an online store built with Laravel,.
 # Site Preview
 
 Here is a preview of the completed site:
-| ![Image 1](https://github.com/franww/Livraria-Web-site/blob/main/public/images/img1.jpg) | ![Image 2](https://github.com/franww/Livraria-Web-site/blob/main/public/images/img2.jpg) |
+| ![Image 1](https://github.com/franww/Livraria-Web-site/blob/main/public/images/img1.jpg) | ![Image 2](https://github.com/franww/Livraria-Web-site/blob/main/public/images/img2.JPG) |
 |-----------------------------------------------|-----------------------------------------------|
-| ![Image 3](https://github.com/franww/Livraria-Web-site/blob/main/public/images/img3.jpg) | ![Image 4](https://github.com/franww/Livraria-Web-site/blob/main/public/images/img4.jpg)
+| ![Image 3](https://github.com/franww/Livraria-Web-site/blob/main/public/images/img3.JPG) | ![Image 4](https://github.com/franww/Livraria-Web-site/blob/main/public/images/img4.JPG)
 
 
 
